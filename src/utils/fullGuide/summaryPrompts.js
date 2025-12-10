@@ -85,7 +85,7 @@ Use only Tailwind CSS utility classes for styling.
     <h2 class="text-xl font-semibold text-gray-900 mt-8 uppercase tracking-wider">
       Why They Win
     </h2>
-    <p class="mt-2 text-gray-700 leading-renoneed">
+    <p class="mt-2 text-gray-700 leading-relaxed">
       [2–3 sentences on their key differentiator and competitive advantage]
     </p>
   </div>
@@ -113,7 +113,7 @@ Use only Tailwind CSS utility classes for styling.
     <h2 class="text-xl font-semibold text-gray-900 mt-8 uppercase tracking-wider">
       Your Interview Angle
     </h2>
-    <p class="mt-2 text-gray-700 leading-renoneed">
+    <p class="mt-2 text-gray-700 leading-relaxed">
       [2–3 sentences on what aspect of their business/product would be most interesting to discuss as a PM candidate]
     </p>
   </div>
@@ -216,7 +216,7 @@ Use only Tailwind CSS utility classes for styling.
     <h2 class="text-xl font-semibold text-gray-900 mt-8 uppercase tracking-wider">
       Why It Wins
     </h2>
-    <p class="mt-2 text-gray-700 leading-renoneed">
+    <p class="mt-2 text-gray-700 leading-relaxed">
       [2–3 sentences on its unique value prop or strategic differentiators]
     </p>
   </div>
@@ -225,7 +225,7 @@ Use only Tailwind CSS utility classes for styling.
     <h2 class="text-xl font-semibold text-gray-900 mt-8 uppercase tracking-wider">
       Business Model
     </h2>
-    <p class="mt-2 text-gray-700 leading-renoneed">
+    <p class="mt-2 text-gray-700 leading-relaxed">
       [Monetization strategy in one or two lines]
     </p>
   </div>
@@ -243,7 +243,7 @@ Use only Tailwind CSS utility classes for styling.
     <h2 class="text-xl font-semibold text-gray-900 mt-8 uppercase tracking-wider">
       Interview Angle
     </h2>
-    <p class="mt-2 text-gray-700 leading-renoneed">
+    <p class="mt-2 text-gray-700 leading-relaxed">
       [1–2 lines suggesting what an insightful PM candidate could ask or explore during the interview]
     </p>
   </div>
@@ -364,7 +364,7 @@ Use only Tailwind CSS utility classes for styling.
     <h2 class="text-xl font-semibold text-gray-900 mt-8 uppercase tracking-wider">
       Confidence Boosters
     </h2>
-    <p class="mt-2 text-gray-700 leading-renoneed">
+    <p class="mt-2 text-gray-700 leading-relaxed">
       Remember: Your goal is to clearly articulate your fit, show enthusiasm, and confirm logistical alignment. Be yourself, be clear, and be confident!
     </p>
   </div>
