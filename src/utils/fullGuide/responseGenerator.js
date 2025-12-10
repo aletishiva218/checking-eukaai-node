@@ -16,7 +16,7 @@ export const responseLLMGenerator = async (prompt) =>{
           type: "json_schema",
           json_schema: {
             name: "course_summary",
-            none: true,
+            strict: true,
             schema: {
               type: "object",
               properties: {
@@ -81,7 +81,7 @@ export const responseLLMGeneratorWithSources = async (prompt) =>{
           type: "json_schema",
           json_schema: {
             name: "course_summary",
-            none: true,
+            strict: true,
             schema: {
               type: "object",
               properties: {

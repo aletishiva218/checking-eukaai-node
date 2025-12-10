@@ -93,7 +93,7 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure):
             <p class='mb-4 text-gray-300'>String (3–4 sentence summary explaining what the company does, core product/service, key innovation, and relevance)</p>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Mission & Values</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>Mission: string (Mission of the company. Must be sourced, not inferred.)</li>\
               <li>Vision: string (Vision of the company. Must be sourced, not inferred.)</li>\
               <li>Values/Principles: string, string, string (List of values/Principles; must be sourced, not inferred.)</li>\
@@ -110,7 +110,7 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure):
       "content": "Explore the range of innovative products and essential services provided by the company. Understand their core functions, the specific benefits they offer to users, and how they collectively contribute to solving key market problems and delivering value.",
       "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Product & Service List</h3>\
-            <ul class='list-none space-y-2 text-gray-300'>\
+            <ul class='list-strict space-y-2 text-gray-300'>\
               <li><b>Product/Service A:</b> string (Concise 1-2 sentence description of what it is and does)</li>\
               <li><b>Product/Service B:</b> string (Same format, repeat as needed)</li>\
             </ul>\
@@ -123,13 +123,13 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure):
       "content": "Discover how the company monetizes its offerings through a detailed look at its business model. This section also covers its funding history, including significant investment rounds or public market information, and provides an overview of its most recent revenue figures to give a complete financial picture.",
       "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Business Model & Monetization</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (e.g., 'Subscription-based SaaS platform for enterprise analytics')</li>\
               <li>String (e.g., 'Freemium pricing for individual users with tiered enterprise plans')</li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Financials & Funding</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Detail of a specific funding event or relevant financial milestone. Examples: 'Series C – $120M – May 2023 – led by Sequoia' OR 'IPO: NASDAQ (TICKER) - Aug 2020, raised $500M' OR 'Post-IPO debt financing - $200M - Jan 2024')</li>\
               <li>String (Further funding details or milestones as applicable, following similar formats)</li>\
             </ul>\
@@ -148,18 +148,18 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure):
             <p class='mb-4 text-gray-300'>String (3–5 sentences on key industries, sectors, or personas served)</p>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Customer Challenges Solved</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (List of core problems solved by the company’s products/services)</li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Reasons Customers Choose</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (1–2 sentence point on USP 1)</li>\
               <li>String (USP 2)</li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Notable Clients</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>Client 1</li>\
               <li>Client 2</li>\
             </ul>\
@@ -172,24 +172,24 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure):
       "content": "Gain a clear understanding of the company's main competitors, both direct and indirect. This section highlights the unique selling propositions that differentiate the company in the market, its core competitive strengths, and any potential vulnerabilities or challenges it faces in relation to its rivals.",
       "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Main Competitors</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>Competitor A</li>\
               <li>Competitor B</li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Differentiators (USPs)</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Point 1)</li>\
               <li>String (Point 2)</li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Competitive Strengths</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (e.g., 'Proprietary AI engine that automates analysis 30% faster')</li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Potential Weaknesses/Challenges</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>String (e.g., 'Limited geographic reach compared to global competitors')</li>\
             </ul>\
           </div>"
@@ -207,7 +207,7 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure):
             <p class='mb-4 text-gray-300'>String (e.g., 'Wholly-owned subsidiary of XYZ Group, with 3 business divisions: Consumer, Enterprise, Research')</p>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Leadership</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>CEO: Full Name</li>\
               <li>CPO: Full Name</li>\
               <li>CTO: Full Name</li>\
@@ -222,13 +222,13 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure):
       "content": "Explore the broader industry landscape affecting the company, including key trends that are driving change and innovation. This section also covers recent news and pivotal developments, such as major product launches, strategic partnerships, or acquisitions, that demonstrate the company's response to or influence on these trends.",
       "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Industry Trends</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>Trend 1</li>\
               <li>Trend 2</li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Recent News & Key Developments</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>Event 1: string (e.g., 'Acquired Company Y, expanding its market presence in Asia, in Q3 2023')</li>\
               <li>Event 2: string (Description of another significant event)</li>\
             </ul>\
@@ -305,31 +305,31 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure for the **Prima
     "content": "Delve into the foundational aspects of the product, understanding its primary function, the specific market segment it targets, and the essential problems it aims to solve. This card also highlights the product's unique value proposition and key differentiators that make it stand out in the competitive landscape, emphasizing information derived directly from official company sources.",
     "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>What Core Product Does</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Concise overview of the product's primary function and capabilities, e.g., 'An advanced analytics platform for processing and visualizing large datasets.') </li>\
               <li>String (The main activity or process it enables for users, according to the company website.) </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Primary Target Market Segment</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (The specific market or industry category the product primarily serves, e.g., 'Enterprise B2B SaaS companies,' as defined on the company website.) </li>\
               <li>String (Further details on the segment if available, e.g., 'Focuses on medium to large enterprises within the financial services and healthcare sectors.') </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Problem(s) It Solves for Users</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Top critical user pain point or business challenge the product resolves, as highlighted on the company website.) </li>\
               <li>String (Another significant problem it addresses, or details on how it provides a solution.) </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Unique Value Proposition (UVP)</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (The core, compelling reason customers choose this product over alternatives, using language from the company website.) </li>\
               <li>String (The most significant benefit or outcome it distinctively delivers, if stated on the company website.) </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Differentiators</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>String (A standout aspect - feature, technology, etc. - that sets it apart, as presented on the company website.) </li>\
               <li>String (Another key differentiator, e.g., 'Offers [Unique Aspect A], unlike most competitors who focus on [Common Aspect B].') </li>\
             </ul>\
@@ -342,25 +342,25 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure for the **Prima
     "content": "Explore the intricate mechanics of the product by examining its identified features and their descriptions, revealing what the product does for its users. Understand the key underlying technologies that drive its performance and unique capabilities. Discover how it integrates within a broader ecosystem to enhance value, and analyze its monetization strategy and pricing approach to see how it generates revenue.",
     "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Identified Product Features & Descriptions</h3>\
-            <ul class='list-none space-y-2 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-2 mb-4 text-gray-300'>\
               <li><b>Feature 1: [Feature Name]</b> - String (A 1-2 line summary of what the feature does and its primary user benefit or value, as described on the company website.) </li>\
               <li><b>Feature 2: [Feature Name]</b> - String (Similar detailed description for another feature.) </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Underlying Technology</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Description of specific technology fundamental to its performance or UVP, if detailed on the company website, e.g., 'Leverages proprietary machine learning models for advanced predictive analytics.') </li>\
               <li>String (If standard tech or not detailed, statement like 'Built on a robust and scalable modern tech stack, focusing on reliable delivery of features,' or 'Specific underlying technology details are not highlighted on the website.') </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Integration & Ecosystem Synergy</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Key integrations critical to user workflows, e.g., with other company products or essential third-party services, as mentioned on the company website.) </li>\
               <li>String (How these integrations extend functionality or streamline user experience, e.g., 'Offers seamless data synchronization with [Contextual Product], enabling a unified workflow for X and Y,' based on website details.) </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Monetization Strategy & Pricing Approach</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>String (How the product generates revenue, e.g., 'Tiered subscription model: Basic, Pro, Enterprise,' as stated on the company website.) </li>\
               <li>String (Brief overview of its pricing model or common tiers, e.g., 'Pricing is per user per month, with volume discounts for larger teams,' if available on the website. If not, state that pricing details are not publicly available on the site.) </li>\
             </ul>\
@@ -373,19 +373,19 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure for the **Prima
     "content": "Understand the heart of the product's design by exploring its primary target user profiles, detailing who uses it and why. Discover how users typically interact with the product through common workflows, and uncover the fundamental needs and aspirations that the product helps them fulfill, all based on insights from official sources.",
     "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Primary Target User Profile(s)</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Detailed description of the most important user segment or persona, e.g., 'Marketing Managers in mid-sized technology companies requiring advanced campaign analytics,' as defined on the company website.) </li>\
               <li>String (Key characteristics, roles, daily tasks, and motivations of another primary user profile relevant to the product, based on website information.) </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>How Users Engage with the Product</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Scenario 1: Description of a common workflow or task a user performs with the product, e.g., 'To optimize ad spend, a user first ingests campaign data from multiple sources, then utilizes the platform's attribution modeling feature to identify high-performing channels, and finally generates a comprehensive report for stakeholders.') </li>\
               <li>String (Scenario 2: Similar detailed description for another key interaction or use case, as described or inferred from the company website.) </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Fundamental User Needs Addressed</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>String (A core underlying need or 'job' the product helps users accomplish, e.g., 'To gain actionable insights from complex datasets to make data-driven business decisions,' inferred from website information.) </li>\
               <li>String (Another fundamental need or aspiration the product fulfills, framed as the progress users are trying to make, e.g., 'To streamline collaborative project management and improve team productivity on complex initiatives.') </li>\
             </ul>\
@@ -398,19 +398,19 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure for the **Prima
     "content": "Analyze the product's standing within its market by identifying key direct competitors and exploring indirect competition and alternative solutions that address the same user problems. This card details how the product strategically positions itself against these competitors, highlighting its competitive advantages and aspirations for market leadership, drawing on official and general market information.",
     "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Key Direct Competitors</h3>\
-            <ul class='list-none space-y-2 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-2 mb-4 text-gray-300'>\
               <li><b>Competitor A: [Name].</b> String (Known for [Their main strength/focus area]. If competitor details are from general knowledge, state so. If from company website, cite that.) </li>\
               <li><b>Competitor B: [Name].</b> String (Similar detailed description for another direct competitor and its known strengths.) </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Indirect Competition & Alternative Solutions</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (Other ways users currently address the core problem the Primary Focus Product solves, e.g., 'Utilizing generic spreadsheet software for data analysis, which lacks specialized features but is widely accessible,' inferred from product descriptions or general market understanding.) </li>\
               <li>String (Description of another alternative solution or type of indirect competitor, e.g., 'Developing custom in-house tools, which offer tailored functionality but require significant development resources and ongoing maintenance.') </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Positioning Against Competitors</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>String (How the product aims to win against direct competitors, e.g., 'By offering a more intuitive user interface and significantly faster data processing speeds, as highlighted by its UVP and differentiators from the company website.') </li>\
               <li>String (Its key competitive advantage in the current landscape, e.g., 'Its unique focus on seamless integration with the broader [Company Name] ecosystem provides a unified user experience not easily matched by standalone competitors.') </li>\
             </ul>\
@@ -423,25 +423,25 @@ REQUIRED INFORMATION CATEGORIES (Map these to the JSON structure for the **Prima
     "content": "Engage in a critical analysis of the product's strategic position through a SWOT framework. Uncover its internal strengths and weaknesses, leveraging insights primarily from company official sources. Simultaneously, explore external opportunities for growth and potential threats that could impact its trajectory, drawing on both official information and broader market knowledge.",
     "htmlContent": "<div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Strengths</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (A key internal advantage, e.g., 'Leverages [Company Name]'s strong brand reputation and existing enterprise customer base for market penetration,' derived from website and JD analysis.) </li>\
               <li>String (Another core competency, e.g., 'Possesses proprietary algorithms for [specific function] that deliver demonstrably superior accuracy compared to alternatives, as evidenced by case studies on the company website.') </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Weaknesses</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (An internal limitation, e.g., 'The product currently has a steeper learning curve for non-technical users, potentially hindering wider adoption in certain segments,' inferred cautiously from website or JD.) </li>\
               <li>String (Another area for improvement, e.g., 'Perceived as having a higher price point compared to some newer, more narrowly focused competitors, which could be a barrier for smaller businesses.') </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Opportunities</h3>\
-            <ul class='list-none space-y-1 mb-4 text-gray-300'>\
+            <ul class='list-strict space-y-1 mb-4 text-gray-300'>\
               <li>String (A significant external market opportunity, e.g., 'The rapidly growing market demand for AI-powered automation in [target industry] presents a significant expansion opportunity for the product’s advanced capabilities.') </li>\
               <li>String (Another potential opportunity, e.g., 'The increasing need for robust data privacy and compliance features offers a chance to further differentiate by enhancing its existing security architecture.') </li>\
             </ul>\
             <hr class='my-4 border-gray-700'>\
             <h3 class='text-lg font-semibold mb-2 text-gray-50'>Threats</h3>\
-            <ul class='list-none space-y-1 text-gray-300'>\
+            <ul class='list-strict space-y-1 text-gray-300'>\
               <li>String (A key external threat, e.g., 'Intense competition from both established players and agile startups introducing innovative features at a rapid pace, requiring continuous product development.') </li>\
               <li>String (Another potential challenge, e.g., 'Potential shifts in technology standards or user preferences towards open-source alternatives could impact long-term market share if not proactively addressed.') </li>\
             </ul>\
@@ -958,7 +958,7 @@ Give me response in this JSON format only and do not include asterisk symbols in
         <hr class='my-4 border-gray-700'>\
         \
         <h2 class='text-xl font-semibold text-gray-50'>Key Evaluation Areas</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Relevance of Experience:</span> Does the candidate's professional background align with the core responsibilities and requirements outlined in the JD?</li>\
             <li><span class='font-medium'>Communication Skills:</span> Can the candidate articulate their experiences and thoughts clearly and concisely?</li>\
             <li><span class='font-medium'>Interest and Enthusiasm:</span> Is the candidate genuinely interested in this specific role and the company, demonstrating that they have researched both?</li>\
@@ -990,7 +990,7 @@ Give me response in this JSON format only and do not include asterisk symbols in
         <hr class='my-4 border-gray-700'>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>Key Elements to Highlight (Based on JD & Resume)</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Relevant Experience:</span> Showcase projects or roles where you managed responsibilities directly aligned with the job’s scope (e.g., product launch, feature development, market analysis).</li>\
             <li><span class='font-medium'>Specific Skills and Tools:</span> Highlight any technical skills, software proficiency, or methodologies explicitly mentioned in the JD (e.g., agile methodologies, data analytics tools, specific programming languages).</li>\
             <li><span class='font-medium'>Impactful Outcomes:</span> Quantify your achievements where possible (e.g., 'increased user engagement by X%', 'reduced operational costs by Y%').</li>\
@@ -1014,7 +1014,7 @@ Give me response in this JSON format only and do not include asterisk symbols in
     "htmlContent":"\
     <div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
         <h2 class='text-xl font-semibold text-gray-50'>Questions About the Role & Team</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Immediate Priorities:</span> 'What would be the top 2-3 immediate priorities for someone stepping into this role in the first 3-6 months?' This helps understand initial focus and expectations.</li>\
             <li><span class='font-medium'>Team Dynamics:</span> 'Could you tell me a bit more about the team this role sits within? How large is it, and what are its key functions?' This provides context on collaboration and structure.</li>\
             <li><span class='font-medium'>Success Measurement:</span> 'How is success typically measured for someone in this position within the first year?' This clarifies performance benchmarks.</li>\
@@ -1023,7 +1023,7 @@ Give me response in this JSON format only and do not include asterisk symbols in
         <hr class='my-4 border-gray-700'>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>Questions About the Interview Process</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Next Steps:</span> 'What does the remainder of the interview process look like, and what can I expect in terms of timelines?' This sets expectations for the candidate.</li>\
             <li><span class='font-medium'>Role Fill Timeline:</span> 'Are you looking to fill this role by a specific date, or is the timeline more flexible?' This provides insight into urgency.</li>\
             <li><span class='font-medium'>Key Stakeholders:</span> 'Who are the key individuals I would be meeting in subsequent rounds, and what are their roles?' This helps the candidate prepare for future interviews.</li>\
@@ -1031,14 +1031,14 @@ Give me response in this JSON format only and do not include asterisk symbols in
         <hr class='my-4 border-gray-700'>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>Questions About Culture and Team Environment</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Company Culture:</span> 'How would you describe the overall culture at [Company Name], particularly within the team for this role?' This helps assess cultural fit.</li>\
             <li><span class='font-medium'>Success Traits:</span> 'In your experience, what are some common traits or qualities you've observed in individuals who thrive in this company/team environment?' This offers insights into desired characteristics.</li>\
         </ul>\
         <hr class='my-4 border-gray-700'>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>Clarifying JD Details</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Specific Responsibility Clarification:</span> 'In the Job Description, it mentions 'strategic impact on product roadmap.' Could you elaborate on what that typically entails for this role?' This demonstrates attention to detail in the JD.</li>\
             <li><span class='font-medium'>Technology/Tool Usage:</span> 'The JD lists [specific technology/tool]. Can you describe how frequently this tool is used, or its significance to daily tasks?' This helps understand practical application.</li>\
         </ul>\
@@ -1075,7 +1075,7 @@ Give me response in this JSON format only and do not include any asterisk symbol
         <hr class='my-4 border-gray-700'>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>Common Variants</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Company-Specific:</span> 'What’s your favorite Google product (or a product from our competitor)?'</li>\
             <li><span class='font-medium'>Negative Framing:</span> 'What’s a product you hate that others love, and why?'</li>\
             <li><span class='font-medium'>Future-Oriented:</span> 'What’s a product with untapped potential, and how would you unlock it?'</li>\
@@ -1084,7 +1084,7 @@ Give me response in this JSON format only and do not include any asterisk symbol
         <hr class='my-4 border-gray-700'>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>How to Choose a Good Product</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Genuine Interest:</span> Pick something you genuinely care about and have formed strong opinions on. Your passion will shine through.</li>\
             <li><span class='font-medium'>Complexity & Nuance:</span> Choose products that have meaningful pros and cons, allowing you to discuss trade-offs and design decisions.</li>\
             <li><span class='font-medium'>Avoid Direct Competitors:</span> Steer clear of products that are direct competitors of the interviewing company, unless you can offer a highly diplomatic and constructive critique.</li>\
@@ -1104,7 +1104,7 @@ Give me response in this JSON format only and do not include any asterisk symbol
     "htmlContent":"\
     <div class='p-4 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
         <h2 class='text-xl font-semibold text-gray-50'>1. Pick the Right Product</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Prepare a Portfolio:</span> Have 3-4 products ready, ideally a mix of digital (e.g., app, software, website) and at least 1 physical product. This shows versatility.</li>\
             <li><span class='font-medium'>Strategic Choices:</span> Avoid products that are either culturally niche (unless you have a compelling, widely understandable reason) or overly common (like Google Search) unless you have a truly unique, insightful take on them.</li>\
         </ul>\
@@ -1123,7 +1123,7 @@ Give me response in this JSON format only and do not include any asterisk symbol
         <hr class='my-4 border-gray-700'>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>5. Suggest Improvements & Justify</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Mission Alignment:</span> Ensure your proposed improvement aligns with the company's overall mission and the product's core value proposition.</li>\
             <li><span class='font-medium'>Address Unmet Needs:</span> Focus on an unmet user need or an existing pain point that isn't fully resolved.</li>\
             <li><span class='font-medium'>Leverage Technology:</span> Consider how new technologies or existing capabilities could enhance the product.</li>\
@@ -1159,7 +1159,7 @@ Give me response in this JSON format only and ensure do not use any asterisk sym
         <hr class='my-4 border-gray-700'>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>What Interviewers are Looking For</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>Product Sense and Structured Thinking:</span> Your ability to break down complex problems into manageable parts and approach them logically.</li>\
             <li><span class='font-medium'>User Empathy and Prioritization:</span> Understanding user needs deeply and prioritizing which problems to solve first based on impact and feasibility.</li>\
             <li><span class='font-medium'>Creativity Balanced with Feasibility:</span> Generating innovative ideas while considering technical, business, and operational constraints.</li>\
@@ -1233,7 +1233,7 @@ Give me response in this JSON format only and ensure do not use any asterisk sym
         <p class='text-gray-300'>“Imagine [Company] is looking to enhance its B2B SaaS platform for project management. Design a new feature or significant improvement that helps team leads better manage cross-functional dependencies and potential bottlenecks in large-scale projects.”</p>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>What This Tests</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>User Empathy:</span> Your ability to understand the complex needs and pain points of team leads and project managers in a B2B context.</li>\
             <li><span class='font-medium'>System Thinking:</span> How you balance various factors like project complexity, team communication, and reporting within a SaaS platform.</li>\
             <li><span class='font-medium'>Problem Solving:</span> Your approach to identifying and addressing critical pain points related to project dependencies and bottlenecks.</li>\
@@ -1252,7 +1252,7 @@ Give me response in this JSON format only and ensure do not use any asterisk sym
         <p class='text-gray-300'>“Design a digital solution (e.g., a mobile app feature or a standalone platform) to help elderly patients, who may have limited digital literacy, consistently track their medications and dosage compliance at home, especially in areas with limited internet connectivity.”</p>\
 \
         <h2 class='text-xl font-semibold text-gray-50'>Why This Is Relevant</h2>\
-        <ul class='list-none space-y-2 text-gray-300'>\
+        <ul class='list-strict space-y-2 text-gray-300'>\
             <li><span class='font-medium'>User Segmentation and Prioritization:</span> This requires you to carefully consider the specific needs of elderly users and prioritize features for ease of use and accessibility.</li>\
             <li><span class='font-medium'>Creativity Under Constraints:</span> It tests your ability to innovate solutions while working within significant constraints like low digital literacy and intermittent connectivity.</li>\
             <li><span class='font-medium'>Demands Practical Definition of Success and Trade-offs:</span> You'll need to define what success looks like for medication adherence and discuss the trade-offs involved in designing for accessibility and reliability in challenging environments.</li>\

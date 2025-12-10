@@ -471,7 +471,7 @@ const productStrategyResponse = {
       completed: 0,
       summary:
         "Product strategy interviews can feel overwhelming, but having a structured approach makes all the difference. This framework keeps you organized, shows strategic thinking, and demonstrates how you balance business needs with execution reality. Use this as your north star for any product strategy question.",
-      type: "none",
+      type: "strict",
       htmlContent:
         "<div class='p-6 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
   <h2 class='text-xl font-bold text-gray-50'>Step 1: Clarify the Goal</h2>\
@@ -631,7 +631,7 @@ const productStrategyResponse = {
       completed: 0,
       summary:
         "Most top tech companies like Google, Meta, and Amazon use structured rubrics to evaluate how you think, not just what you say. Let’s break down the 3 core areas they care about most, and what separates a “meh” answer from a great one. Take a look at the rubric. It breaks down the categories into structured thinking, product creativity and strategy, and tech and execution. Broadly it can be scored into four categories—needs improvement, somewhat okay, strong responses, and exceptional responses.",
-      type: "none",
+      type: "strict",
       htmlContent:
         "<div class='p-6 rounded-xl shadow-md space-y-6 bg-[#08090A] text-gray-200'>\
   <h2 class='text-xl font-bold text-gray-50'>Category: Structured Thinking</h2>\
